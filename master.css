@@ -11,3 +11,5 @@ html, body {
    /* taille max et bordure */
    width: 80%;
 }
+
+@media min-width:64rem
