@@ -1,19 +1,13 @@
 html, body {
    width: 100%;
    height: 100%;
-   margin: 0;
-   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGklEQVQYlWM4c+bMf3TMgA0MBYWDzDkUKQQAlHCpV9ycHeMAAAAASUVORK5CYII=) repeat;
-}
-
-body {
-   /* centrage du contenu */
+   background-color: white;
    display: flex;
+   align-items: center; 
    justify-content: center;
-   align-items: center;
 }
 
 .animation {
    /* taille max et bordure */
-   max-width: 512px;
-   border: 1px dashed grey;
+   width: 80%;
 }
