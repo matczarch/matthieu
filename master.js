@@ -68,28 +68,28 @@ animation.addEventListener( 'DOMLoaded', function () {
 } )
 
 if (essai = [543,1049]) {
-animation.addEventListener( 'DOMLoaded', function () {
-   animation.playSegments([0,325],true);
-  animation.wrapper.addEventListener('click', function () {
-     console.log(animation.currentFrame)
-
-     // si on est entre la frame 100 ET la frame 400 incluses
-     // ou plutôt : si la frame actuelle >= 100 et <= 400
-     if ( animation.currentFrame >= 150 && animation.currentFrame <= 508) {
-        console.info('vitesse : 2x');
-        animation.playSegments([0,325],true);
-
-
-     // autre test si le premier n'est pas vrai
-     // si la frame courant est >= 0 ET <= 50
-     // OU (||)
-     // si entre 550 et 600 incluses
-     } else if (false) {
-        console.info('restart');
-     
-     }
-  });
-} )
+   animation.addEventListener( 'DOMLoaded', function () {
+      animation.playSegments([0,325],true);
+     animation.wrapper.addEventListener('click', function () {
+        console.log(animation.currentFrame)
+   
+        // si on est entre la frame 100 ET la frame 400 incluses
+        // ou plutôt : si la frame actuelle >= 100 et <= 400
+        if ( animation.currentFrame >= 150 && animation.currentFrame <= 505) {
+           console.info('vitesse : 2x');
+           animation.playSegments([0,325],true);
+   
+   
+        // autre test si le premier n'est pas vrai
+        // si la frame courant est >= 0 ET <= 50
+        // OU (||)
+        // si entre 550 et 600 incluses
+        } else if (false) {
+           console.info('restart');
+        
+        }
+     });
+   } )
 }
 else if (essai  = [1129,1625]) {
    animation.addEventListener( 'DOMLoaded', function () {
